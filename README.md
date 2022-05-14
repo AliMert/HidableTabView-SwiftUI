@@ -2,29 +2,29 @@
 
 Hide TabView any where in the SwiftUI project.
 
-```
+ ```swift
     ThirdView()
         .hideTabBar() // animated parameter is set to true by default
-```
+ ```
 
-```
+```swift
     FourthView()
         .showTabBar() // animated parameter is set to true by default
 ```
 
-```
+```swift
     FirstView().onAppear {
         UITabBar.hideTabBar(animated: false)
     }
 ```
 
-```
+```swift
     SecondView().onAppear {
         UITabBar.hideTabBar(animated: false)
     }
 ```
 
-```
+```swift
      Button {
          UITabBar.toogleTabBarVisibility()
    } label: {
@@ -39,15 +39,8 @@ Hide TabView any where in the SwiftUI project.
   </tr>
 </thead>
 <tbody>
-  <tr> 
-     <th>
-     <div align="center">
-        <b>Demo</b>
-</div>
-</th>
-  </tr>
   <tr>
-     <td colspan="3"> ![Demo Link](screenshots/demo.mp4) </td>
+     <td> ![Demo Link](screenshots/demo.mp4) </td>
   </tr>
 </tbody>
 </table>
