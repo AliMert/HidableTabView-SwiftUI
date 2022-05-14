@@ -11,6 +11,16 @@
 		E18F421B282AD0EE0057864C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18F421A282AD0EE0057864C /* ContentView.swift */; };
 		E18F421D282AD0F00057864C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E18F421C282AD0F00057864C /* Assets.xcassets */; };
 		E18F4220282AD0F00057864C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E18F421F282AD0F00057864C /* Preview Assets.xcassets */; };
+		E18F4229282AE4C90057864C /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18F4228282AE4C90057864C /* View+Extensions.swift */; };
+		E18F422B282FFBF40057864C /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18F422A282FFBF30057864C /* FirstView.swift */; };
+		E18F422D282FFF5C0057864C /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18F422C282FFF5B0057864C /* SecondView.swift */; };
+		E18F422F283000990057864C /* TabViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18F422E283000990057864C /* TabViewManager.swift */; };
+		E18F4233283003520057864C /* ShowTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18F4232283003520057864C /* ShowTabBar.swift */; };
+		E18F4235283003640057864C /* HiddenTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18F4234283003640057864C /* HiddenTabBar.swift */; };
+		E18F4238283008520057864C /* UITabBar+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18F4237283008520057864C /* UITabBar+Extensions.swift */; };
+		E18F423B283008CF0057864C /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18F423A283008CF0057864C /* UIView+Extensions.swift */; };
+		E18F423D28300DCD0057864C /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18F423C28300DCD0057864C /* ThirdView.swift */; };
+		E18F423F28300E130057864C /* FourthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18F423E28300E130057864C /* FourthView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +29,16 @@
 		E18F421A282AD0EE0057864C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E18F421C282AD0F00057864C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E18F421F282AD0F00057864C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E18F4228282AE4C90057864C /* View+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		E18F422A282FFBF30057864C /* FirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstView.swift; sourceTree = "<group>"; };
+		E18F422C282FFF5B0057864C /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		E18F422E283000990057864C /* TabViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewManager.swift; sourceTree = "<group>"; };
+		E18F4232283003520057864C /* ShowTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowTabBar.swift; sourceTree = "<group>"; };
+		E18F4234283003640057864C /* HiddenTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiddenTabBar.swift; sourceTree = "<group>"; };
+		E18F4237283008520057864C /* UITabBar+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITabBar+Extensions.swift"; sourceTree = "<group>"; };
+		E18F423A283008CF0057864C /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		E18F423C28300DCD0057864C /* ThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
+		E18F423E28300E130057864C /* FourthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +73,9 @@
 			children = (
 				E18F4218282AD0EE0057864C /* HidableTabViewApp.swift */,
 				E18F421A282AD0EE0057864C /* ContentView.swift */,
+				E18F4230283002340057864C /* TabViews */,
+				E18F4239283008840057864C /* Tools */,
+				E18F4236283008430057864C /* Extensions */,
 				E18F421C282AD0F00057864C /* Assets.xcassets */,
 				E18F421E282AD0F00057864C /* Preview Content */,
 			);
@@ -65,6 +88,45 @@
 				E18F421F282AD0F00057864C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E18F4230283002340057864C /* TabViews */ = {
+			isa = PBXGroup;
+			children = (
+				E18F422A282FFBF30057864C /* FirstView.swift */,
+				E18F422C282FFF5B0057864C /* SecondView.swift */,
+				E18F423C28300DCD0057864C /* ThirdView.swift */,
+				E18F423E28300E130057864C /* FourthView.swift */,
+			);
+			path = TabViews;
+			sourceTree = "<group>";
+		};
+		E18F4231283003440057864C /* ViewModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				E18F4232283003520057864C /* ShowTabBar.swift */,
+				E18F4234283003640057864C /* HiddenTabBar.swift */,
+			);
+			path = ViewModifiers;
+			sourceTree = "<group>";
+		};
+		E18F4236283008430057864C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E18F4228282AE4C90057864C /* View+Extensions.swift */,
+				E18F423A283008CF0057864C /* UIView+Extensions.swift */,
+				E18F4237283008520057864C /* UITabBar+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E18F4239283008840057864C /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				E18F4231283003440057864C /* ViewModifiers */,
+				E18F422E283000990057864C /* TabViewManager.swift */,
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +199,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E18F4233283003520057864C /* ShowTabBar.swift in Sources */,
+				E18F423F28300E130057864C /* FourthView.swift in Sources */,
 				E18F421B282AD0EE0057864C /* ContentView.swift in Sources */,
+				E18F422D282FFF5C0057864C /* SecondView.swift in Sources */,
+				E18F422F283000990057864C /* TabViewManager.swift in Sources */,
+				E18F423D28300DCD0057864C /* ThirdView.swift in Sources */,
 				E18F4219282AD0EE0057864C /* HidableTabViewApp.swift in Sources */,
+				E18F4235283003640057864C /* HiddenTabBar.swift in Sources */,
+				E18F4229282AE4C90057864C /* View+Extensions.swift in Sources */,
+				E18F4238283008520057864C /* UITabBar+Extensions.swift in Sources */,
+				E18F422B282FFBF40057864C /* FirstView.swift in Sources */,
+				E18F423B283008CF0057864C /* UIView+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
