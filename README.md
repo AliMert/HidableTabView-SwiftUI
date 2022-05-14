@@ -20,7 +20,7 @@ Hide TabView any where in the SwiftUI project.
 
 ```swift
     SecondView().onAppear {
-        UITabBar.hideTabBar(animated: false)
+        UITabBar.showTabBar(animated: false)
     }
 ```
 
