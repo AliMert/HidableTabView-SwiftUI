@@ -39,6 +39,7 @@
 		E18F423A283008CF0057864C /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		E18F423C28300DCD0057864C /* ThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
 		E18F423E28300E130057864C /* FourthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthView.swift; sourceTree = "<group>"; };
+		E18F43B6283174240057864C /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +56,7 @@
 		E18F420C282AD0EE0057864C = {
 			isa = PBXGroup;
 			children = (
+				E18F43B6283174240057864C /* Package.swift */,
 				E18F4217282AD0EE0057864C /* HidableTabView */,
 				E18F4216282AD0EE0057864C /* Products */,
 			);
