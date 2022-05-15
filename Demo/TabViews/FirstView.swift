@@ -29,8 +29,7 @@ struct FirstView: View {
                 Text("Hide/Show Tab Bar")
             }
         }
-        .maxWidth()
-        .maxHeight()
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(.blue.opacity(0.3))
     }
 }
