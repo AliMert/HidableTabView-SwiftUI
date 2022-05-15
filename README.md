@@ -2,6 +2,27 @@
 
 Hide TabView any where in the SwiftUI project.
 
+Go to section
+* [Installation](#installation)  
+* [Usage](#usage)  
+* [Demo Link and Video](#demo-link-and-video)
+<h2> Installation</h2>
+
+<h4> Swift Package Manager <h4>
+
+<p>
+HideableTabView framework can be added to your project as a package thorught SPM. </br>
+</p>
+
+<p>
+<ul>
+    <li> https://gitlab.com/AliMertOzhayta/hidabletabview-swiftui.git </li>
+</ul>
+</p>
+</br>
+
+## Usage 
+
  ```swift
     ThirdView()
         .hideTabBar() // animated parameter is set to true by default
@@ -31,6 +52,8 @@ Hide TabView any where in the SwiftUI project.
        Text("Hide/Show Tab Bar")
   }
 ```
+
+# Demo Link and Video
 
 <table>
 <thead>
