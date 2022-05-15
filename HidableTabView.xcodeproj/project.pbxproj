@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E18F4219282AD0EE0057864C /* HidableTabViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18F4218282AD0EE0057864C /* HidableTabViewApp.swift */; };
+		E18F4219282AD0EE0057864C /* DemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18F4218282AD0EE0057864C /* DemoApp.swift */; };
 		E18F421B282AD0EE0057864C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18F421A282AD0EE0057864C /* ContentView.swift */; };
 		E18F421D282AD0F00057864C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E18F421C282AD0F00057864C /* Assets.xcassets */; };
 		E18F4220282AD0F00057864C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E18F421F282AD0F00057864C /* Preview Assets.xcassets */; };
@@ -56,7 +56,7 @@
 
 /* Begin PBXFileReference section */
 		E18F4215282AD0EE0057864C /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E18F4218282AD0EE0057864C /* HidableTabViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HidableTabViewApp.swift; sourceTree = "<group>"; };
+		E18F4218282AD0EE0057864C /* DemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoApp.swift; sourceTree = "<group>"; };
 		E18F421A282AD0EE0057864C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E18F421C282AD0F00057864C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E18F421F282AD0F00057864C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -115,7 +115,7 @@
 		E18F4217282AD0EE0057864C /* Demo */ = {
 			isa = PBXGroup;
 			children = (
-				E18F4218282AD0EE0057864C /* HidableTabViewApp.swift */,
+				E18F4218282AD0EE0057864C /* DemoApp.swift */,
 				E18F421A282AD0EE0057864C /* ContentView.swift */,
 				E18F4230283002340057864C /* TabViews */,
 				E18F4239283008840057864C /* Tools */,
@@ -297,7 +297,7 @@
 				E18F422D282FFF5C0057864C /* SecondView.swift in Sources */,
 				E18F422F283000990057864C /* TabViewManager.swift in Sources */,
 				E18F423D28300DCD0057864C /* ThirdView.swift in Sources */,
-				E18F4219282AD0EE0057864C /* HidableTabViewApp.swift in Sources */,
+				E18F4219282AD0EE0057864C /* DemoApp.swift in Sources */,
 				E18F4235283003640057864C /* HiddenTabBar.swift in Sources */,
 				E18F4229282AE4C90057864C /* View+Extensions.swift in Sources */,
 				E18F4238283008520057864C /* UITabBar+Extensions.swift in Sources */,
