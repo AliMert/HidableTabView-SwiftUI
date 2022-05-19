@@ -1,12 +1,16 @@
 # Hideable TabView
+</br>
 
 Hide TabView any where in the SwiftUI project.
 
-Go to section
+Go to section:
 * [Installation](#installation)  
 * [Usage](#usage)  
-* [Demo Link and Video](#demo-link-and-video)
-<h2> Installation</h2>
+* [Demo](#demo)
+
+</br>
+
+## Installation
 
 <h4> Swift Package Manager <h4>
 
@@ -16,7 +20,7 @@ HideableTabView framework can be added to your project as a package thorught SPM
 
 <p>
 <ul>
-    <li> https://gitlab.com/AliMertOzhayta/hidabletabview-swiftui.git </li>
+    <li> https://github.com/AliMert/HidableTabView-SwiftUI.git </li>
 </ul>
 </p>
 </br>
@@ -52,18 +56,10 @@ HideableTabView framework can be added to your project as a package thorught SPM
        Text("Hide/Show Tab Bar")
   }
 ```
+</br>
 
-# Demo Link and Video
+# Demo
 
-<table>
-<thead>
-   <tr>
-      <th><div align="center">Demo</div></th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-     <td> ![Demo Link](screenshots/demo.mp4) </td>
-  </tr>
-</tbody>
-</table>
+https://user-images.githubusercontent.com/37440706/169291784-32f56800-e74a-48bb-9040-ce96aa8c4af8.mp4
+
+
