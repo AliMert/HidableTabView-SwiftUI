@@ -40,6 +40,7 @@ public extension UITabBar {
             windowScene?.windows.first(where: { $0.isKeyWindow })?.allSubviews().forEach({ (v) in
                 if let view = v as? UITabBar {
                     view.setIsHidden(false, animated: animated)
+                    
                 }
             })
         }
@@ -52,8 +53,17 @@ public extension UITabBar {
             windowScene?.windows.first(where: { $0.isKeyWindow })?.allSubviews().forEach({ (v) in
                 if let view = v as? UITabBar {
                     view.setIsHidden(true, animated: animated)
+                    updateFrame(view)
                 }
             })
+        }
+    }
+    
+    private static func updateFrame(_ view: UIView) {
+        if let sv =  view.superview {
+            let currentFrame = sv.frame
+            sv.frame = currentFrame.insetBy(dx: 0, dy: 1)
+            sv.frame = currentFrame
         }
     }
 
