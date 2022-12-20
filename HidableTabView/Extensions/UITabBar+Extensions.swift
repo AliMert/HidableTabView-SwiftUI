@@ -5,7 +5,7 @@
 //  Created by Ali Mert Özhayta on 14.05.2022.
 //
 
-import UIKit.UITabBar
+import UIKit
 
 public extension UITabBar {
 
@@ -40,7 +40,6 @@ public extension UITabBar {
             windowScene?.windows.first(where: { $0.isKeyWindow })?.allSubviews().forEach({ (v) in
                 if let view = v as? UITabBar {
                     view.setIsHidden(false, animated: animated)
-                    updateFrame(view)
                 }
             })
         }
@@ -53,7 +52,6 @@ public extension UITabBar {
             windowScene?.windows.first(where: { $0.isKeyWindow })?.allSubviews().forEach({ (v) in
                 if let view = v as? UITabBar {
                     view.setIsHidden(true, animated: animated)
-                    updateFrame(view)
                 }
             })
         }
@@ -74,6 +72,7 @@ public extension UITabBar {
         if animated {
             if self.isHidden && !hidden {
                 self.isHidden = false
+                Self.updateFrame(self)
                 self.frame.origin.y = UIScreen.main.bounds.height + 200
             }
 
@@ -95,6 +94,7 @@ public extension UITabBar {
             }) { _ in
                 if hidden && !self.isHidden {
                     self.isHidden = true
+                    Self.updateFrame(self)
                 }
             }
         } else {
@@ -105,6 +105,7 @@ public extension UITabBar {
                 self.frame.origin.y = UIScreen.main.bounds.height - self.frame.height
             }
             self.isHidden = hidden
+            Self.updateFrame(self)
             self.alpha = 1
         }
     }
