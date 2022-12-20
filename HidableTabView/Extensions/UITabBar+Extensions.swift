@@ -40,7 +40,7 @@ public extension UITabBar {
             windowScene?.windows.first(where: { $0.isKeyWindow })?.allSubviews().forEach({ (v) in
                 if let view = v as? UITabBar {
                     view.setIsHidden(false, animated: animated)
-                    
+                    updateFrame(view)
                 }
             })
         }
