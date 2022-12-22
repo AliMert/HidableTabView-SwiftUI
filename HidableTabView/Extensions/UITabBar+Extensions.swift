@@ -5,7 +5,7 @@
 //  Created by Ali Mert Özhayta on 14.05.2022.
 //
 
-import UIKit.UITabBar
+import UIKit
 
 public extension UITabBar {
 
@@ -56,6 +56,14 @@ public extension UITabBar {
             })
         }
     }
+    
+    private static func updateFrame(_ view: UIView) {
+        if let sv =  view.superview {
+            let currentFrame = sv.frame
+            sv.frame = currentFrame.insetBy(dx: 0, dy: 1)
+            sv.frame = currentFrame
+        }
+    }
 
     // logic is implemented for hiding or showing the tab bar with animation
     private func setIsHidden(_ hidden: Bool, animated: Bool) {
@@ -64,6 +72,7 @@ public extension UITabBar {
         if animated {
             if self.isHidden && !hidden {
                 self.isHidden = false
+                Self.updateFrame(self)
                 self.frame.origin.y = UIScreen.main.bounds.height + 200
             }
 
@@ -85,6 +94,7 @@ public extension UITabBar {
             }) { _ in
                 if hidden && !self.isHidden {
                     self.isHidden = true
+                    Self.updateFrame(self)
                 }
             }
         } else {
@@ -95,6 +105,7 @@ public extension UITabBar {
                 self.frame.origin.y = UIScreen.main.bounds.height - self.frame.height
             }
             self.isHidden = hidden
+            Self.updateFrame(self)
             self.alpha = 1
         }
     }
